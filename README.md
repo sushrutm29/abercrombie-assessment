@@ -14,4 +14,7 @@
 
    ```http://localhost:3003```
 
+### NOTES
+Click username for more details
+
 ## Exercise 2: Task Tracker Enhancement
