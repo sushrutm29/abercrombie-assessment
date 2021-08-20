@@ -1,0 +1,16 @@
+<div id="home">
+    <div class="list-group">
+    {{#each users}}
+        <button type="button" class="list-group-item" onclick="handleButtonClick({{id}})">
+            <div class="list-entry">
+                <img src="{{avatar}}" onerror="this.onerror=null;this.src='images/default_user.png'" alt=" " class="user-avatar">
+                <h2 class="user-name">{{name}}</h2>
+            </div>
+            <div class="list-description" id="{{id}}">
+                <p>Id: {{id}}</p>
+                <p>Created At: {{createdAt}}</p>
+            </div>
+        </button>
+    {{/each}}
+    </div>
+</div>

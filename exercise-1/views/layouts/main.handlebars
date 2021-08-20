@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>{{title}}</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" type="text/css" href="public/css/site.css">
+</head>
+
+<body>
+    <header>
+        <h1 class="app-header">User List</h1>
+    </header>
+    {{{body}}}
+    <footer>
+        <h1 class="app-footer">Created by Sushrut</h1>
+    </footer>
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/handlebars@latest/dist/handlebars.js"></script>
+    {{> (lookup . 'partial') }}
+</body>
+
+</html>
