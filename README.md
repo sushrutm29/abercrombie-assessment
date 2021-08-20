@@ -5,9 +5,11 @@
 2. Install packages and dependencies:
 
 ```npm install```
+
 4. Start the server:
 
 ```npm start```
+
 5. Access website
 
 ```localhost:3003```
