@@ -12,6 +12,6 @@
 
 5. Access website
 
-   ```localhost:3003```
+   ```http://localhost:3003```
 
 ## Exercise 2: Task Tracker Enhancement
