@@ -1,0 +1,32 @@
+body{
+    background-image: url("../images/background.png");
+}
+
+.app-header, .app-footer{
+    text-align: center;
+}
+
+.user-list{
+    list-style-type: none;
+}
+
+.list-entry{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 1%;
+}
+
+.user-avatar{
+    max-width: 3%;
+    height: 3%;
+    border-radius: 50%;
+}
+
+.user-name{
+    font-size: medium;
+}
+
+.list-description{
+    display: none;
+}
