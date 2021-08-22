@@ -15,6 +15,10 @@
    ```http://localhost:3003```
 
 ### NOTES
-Click username for more details
+Click username or avatar for more details about the user
 
 ## Exercise 2: Task Tracker Enhancement
+1. Clone repository
+2. Run the application by opening this file
+
+```index.html```
