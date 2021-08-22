@@ -21,4 +21,4 @@ Click username or avatar for more details about the user
 1. Clone repository
 2. Run the application by opening this file
 
-```index.html```
+   ```index.html```
